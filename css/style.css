@@ -9,7 +9,7 @@ body{
     background-color:#0E1014;
     color: #ffffff;
 }
-    
+
 .whiteMode{
     background-color: white;
     color: black;
@@ -90,10 +90,16 @@ section img{
     p{
         width: 648px;
     }
-
 }
 
-@media(max-width: 375px){
+@media(max-width: 600px){
+    p{
+        width: 340px;;
+    }
+
+    }
+
+@media(max-width: 450px){
     #logo{
         margin:32px 0 0 16px;
     }
